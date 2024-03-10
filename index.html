@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="w-[390px] mx-auto my-[22px]">
+        <div class="w-[390px] h-[40px] flex mb-[15px]">
+            <input id="input" type="text" class="border-[#E1E1E1] border-solid border-[1px] w-full">
+            <div class="">
+                <button id="add" class="bg-[#13E328] w-[40px] h-[40px] p-[12px] inline-flex items-center justify-center"><i
+                        class="fa fa-plus text-white" aria-hidden="true"></i></button>
+            </div>
+        </div>
+        <div class="flex justify-between space-x-[9px] text-[#5C5C5C] font-bold text-[15px] leading-[19px] mb-[13px]">
+            <button class="border-[#E1E1E1] border-[1px] w-[124px] py-[6px] text-center rounded-[6px]">All</button>
+            <button class="border-[#E1E1E1] border-[1px] w-[124px] py-[6px] text-center rounded-[6px]">Completed</button>
+            <button class="border-[#E1E1E1] border-[1px] w-[124px] py-[6px] text-center rounded-[6px]">Pending</button>
+        </div>
+        <div class="space-y-[6px] taskContent">
+
+        </div>
+    </div>
+    <script src="./new.js"></script>
+</body>
+
+</html>
